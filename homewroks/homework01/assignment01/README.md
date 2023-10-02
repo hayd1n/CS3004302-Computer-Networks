@@ -1,10 +1,10 @@
-# HW01 SMTP Client
+# HW01-01 SMTP Client
 
 Written in go.
 
 
 
-## Dependicies
+## Dependency
 
 - Go >= 1.18
 
@@ -23,8 +23,8 @@ go build
 ### Usage
 
 ```shell
-./homework01 -h
-Usage of ./homework01:
+./assignment01 -h
+Usage of ./assignment01:
   -body string
         email content
   -from string
@@ -40,7 +40,7 @@ Usage of ./homework01:
 ### Example
 
 ```bash
-./homework01 -host localhost:1025 -from m831718@gmail.com -to B11030202@mail.ntust.edu.tw -title "Hello world!" -body "hello from my smtp client"
+./assignment01 -host localhost:1025 -from m831718@gmail.com -to B11030202@mail.ntust.edu.tw -title "Hello world!" -body "hello from my smtp client"
 
 successful
 ```
@@ -78,7 +78,7 @@ Mailpit (1.9.4)
 #### Command
 
 ```bash
-./homework01 -host localhost:1025 -from m831718@gmail.com -to B11030202@mail.ntust.edu.tw -title "Hello world!" -body "hello from my smtp client"
+./assignment01 -host localhost:1025 -from m831718@gmail.com -to B11030202@mail.ntust.edu.tw -title "Hello world!" -body "hello from my smtp client"
 
 successful
 ```
