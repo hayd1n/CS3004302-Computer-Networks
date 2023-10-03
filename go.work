@@ -1,0 +1,6 @@
+go 1.21.1
+
+use (
+	./homewroks/homework01/assignment01
+	./homewroks/homework01/assignment02
+)
