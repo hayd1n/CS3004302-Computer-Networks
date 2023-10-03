@@ -13,7 +13,9 @@ Written in go.
 ## Build
 
 ```bash
-go build
+mkdir build
+cd build
+go build ..
 ```
 
 
