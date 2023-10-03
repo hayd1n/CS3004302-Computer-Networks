@@ -75,7 +75,7 @@ func main() {
 
 		fmt.Printf("received=%d KB rate=%f Mbps", n/1000, mbps)
 	} else if mode == ClientMode {
-		if host == "" || port == 0 {
+		if host == "" || port == 0 || time == 0 {
 			fmt.Println("Error: missing or additional arguments")
 			os.Exit(1)
 		}
