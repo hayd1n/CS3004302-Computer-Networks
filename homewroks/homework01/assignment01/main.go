@@ -1,7 +1,7 @@
 package main
 
 import (
-	"CRT-HAO/CS3004302/homework01/assignment01/smtp"
+	"CRT-HAO/CS3004302/homework01/mail-client/smtp"
 	"flag"
 	"fmt"
 	"os"
