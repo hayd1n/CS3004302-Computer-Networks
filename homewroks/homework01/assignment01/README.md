@@ -13,7 +13,9 @@ Written in go.
  ## Build
 
 ```bash
-go build
+mkdir build
+cd build
+go build ..
 ```
 
 
@@ -23,24 +25,24 @@ go build
 ### Usage
 
 ```shell
-./assignment01 -h
-Usage of ./assignment01:
+./mail-client -h
+Usage of ./mail-client:
   -body string
-        email content
+    	email content
   -from string
-        sender email address
+    	sender email address
   -host string
-        smtp server address
+    	smtp server address
   -title string
-        email title
+    	email title
   -to string
-        receiver email address
+    	receiver email address
 ```
 
 ### Example
 
 ```bash
-./assignment01 -host localhost:1025 -from m831718@gmail.com -to B11030202@mail.ntust.edu.tw -title "Hello world!" -body "hello from my smtp client"
+./mail-client -host localhost:1025 -from m831718@gmail.com -to B11030202@mail.ntust.edu.tw -title "Hello world!" -body "hello from my smtp client"
 
 successful
 ```
@@ -78,7 +80,7 @@ Mailpit (1.9.4)
 #### Command
 
 ```bash
-./assignment01 -host localhost:1025 -from m831718@gmail.com -to B11030202@mail.ntust.edu.tw -title "Hello world!" -body "hello from my smtp client"
+./mail-client -host localhost:1025 -from m831718@gmail.com -to B11030202@mail.ntust.edu.tw -title "Hello world!" -body "hello from my smtp client"
 
 successful
 ```
